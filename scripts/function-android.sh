@@ -61,8 +61,8 @@ enable_main_build() {
 enable_lts_build() {
   export FFMPEG_KIT_LTS_BUILD="1"
 
-  # LTS RELEASES USE API LEVEL 19
-  export API=19
+  # LTS RELEASES USE API LEVEL 21
+  export API=21
 }
 
 build_application_mk() {
